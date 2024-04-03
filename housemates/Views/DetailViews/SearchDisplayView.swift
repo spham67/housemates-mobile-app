@@ -124,5 +124,4 @@ struct SearchDisplayView: View {
 #Preview {
     SearchDisplayView(currUser: UserViewModel.mockUser())
         .environmentObject(UserViewModel())
-        .environmentObject(FriendInfoViewModel())
 }

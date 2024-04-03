@@ -225,7 +225,6 @@ struct HousemateProfileView_Previews: PreviewProvider {
             .environmentObject(AuthViewModel())
             .environmentObject(TaskViewModel())
             .environmentObject(TabBarViewModel())
-            .environmentObject(FriendInfoViewModel())
     }
 }
 

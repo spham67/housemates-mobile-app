@@ -10,7 +10,6 @@ import SwiftUI
 struct OtherProfileView: View {
     @EnvironmentObject var authViewModel : AuthViewModel
     @EnvironmentObject var tabBarViewModel : TabBarViewModel
-//    @EnvironmentObject var friendInfoViewModel : FriendInfoViewModel
     
     let user: User
     var body: some View {
