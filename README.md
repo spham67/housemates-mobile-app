@@ -1,28 +1,21 @@
-# Housemates: Team 6
-Swift Mobile Application for housekeeping efficiency, collaboration, and organization.
+# Housemates
 
-Housemates is a way for people of the same living space, whther roomates, family, or large living communities to organized chores and tasks.
+[<img src="https://github.com/spham67/housemates-mobile-app/assets/98799078/f43af162-7596-4589-99a3-3f5d0f2e4fe2" width="50%">](https://youtu.be/JWnoy6bBSOo?si=BfuFXRbvx9OoKjN0)
 
-The main features of the app include:
+This is a iOS Mobile Application for housekeeping efficiency, collaboration, and organization.  Housemates is a way for people of the same living space, whther roomates, family, or large living communities to organized chores and tasks.  This repository is the continued work of a team project for a mobile applications course at Carnegie Mellon University and was also featured in a Capital One Mobile Apps Competition.
 
-- Post Feed: Features a optional before photo and required after photo of a chore.  Housemates can then react and comment on your posts and notifications are stored as well.  This increases communication and accountability
+# Features
 
-- Task Board: Add a Task, claim a task and complete a task.  Simple as that!
+<li>Post Feed: Browse before and after photos of completed tasks! Other housemates can react using an emoji picker and/or comment on your posts</li>
 
-- Leaderboard:  See the statistical standings of the group.  Who contributes the most?
+<li>Task Board: Add, claim, and complete tasks.  Make edits and view details of all tasks as well!</li>
 
-- Profile View:  See your previous activity and posts in a convienient calendar view.
+<li>Leaderboard: See the statistical standings of the group including who contributes the most in a given time period</li>
 
-
-Tech Decisions: 
-We decided to use Firestore as a database to manage all real time data
-
-Technical issues:
-- When logging in, you may encounter an app crash or stall due to concurrent firebase processes.  Please exit the app on your local device and restart if this happens and it should be good to go!  Do the same if no data renders or unlimited buffering.
-
-To the Graders:
-A test user has been made already for you.  Here are the credentials:
-email: joeman@gmail.com
-password: password
+<li>Profile View: See your previous activity and posts in a convienient and fun calendar view</li>
 
 
+# Collaborators
+<li>Daniel Gunawan</li>
+<li>Sanmoy Karmakar</li>
+<li>Bernard Sheng</li>
